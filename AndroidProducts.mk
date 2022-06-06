@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/corvus_merlinx.mk
+   $(LOCAL_DIR)/corvus_dot.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_merlinx-user \
-    corvus_merlinx-userdebug \
-    corvus_merlinx-eng
+    dot_merlinx-user \
+    dot_merlinx-userdebug \
+    dot_merlinx-eng
