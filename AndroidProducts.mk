@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/dot_merlinx.mk
+   $(LOCAL_DIR)/cherish_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_merlinx-user \
-    dot_merlinx-userdebug \
-    dot_merlinx-eng
+    cherish_merlinx-user \
+    cherish_merlinx-userdebug \
+    cherish_merlinx-eng
