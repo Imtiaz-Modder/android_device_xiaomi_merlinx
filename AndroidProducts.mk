@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/evolution_merlinx.mk
+   $(LOCAL_DIR)/corvus_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_merlinx-user \
-    evolution_merlinx-userdebug \
-    evolution_merlinx-eng
+    corvus_merlinx-user \
+    corvus_merlinx-userdebug \
+    corvus_merlinx-eng
