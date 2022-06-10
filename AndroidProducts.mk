@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/xdroid_merlinx.mk
+   $(LOCAL_DIR)/evolution_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_merlinx-user \
-    xdroid_merlinx-userdebug \
-    xdroid_merlinx-eng
+    evolution_merlinx-user \
+    evolution_merlinx-userdebug \
+    evolution_merlinx-eng
