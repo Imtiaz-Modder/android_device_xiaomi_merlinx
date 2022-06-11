@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/syberia_merlinx.mk
+   $(LOCAL_DIR)/exthm_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_merlinx-user \
-    syberia_merlinx-userdebug \
-    syberia_merlinx-eng
+    exthm_merlinx-user \
+    exthm_merlinx-userdebug \
+    exthm_merlinx-eng
