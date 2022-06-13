@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/exthm_merlinx.mk
+   $(LOCAL_DIR)/dot_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_merlinx-user \
-    exthm_merlinx-userdebug \
-    exthm_merlinx-eng
+    dot_merlinx-user \
+    dot_merlinx-userdebug \
+    dot_merlinx-eng
