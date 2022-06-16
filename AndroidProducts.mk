@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/pixys_merlinx.mk
+   $(LOCAL_DIR)/aosp_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_merlinx-user \
-    pixys_merlinx-userdebug \
-    pixys_merlinx-eng
+    aosp_merlinx-user \
+    aosp_merlinx-userdebug \
+    aosp_merlinx-eng
