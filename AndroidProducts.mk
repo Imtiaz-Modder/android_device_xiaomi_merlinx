@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_merlinx.mk
+   $(LOCAL_DIR)/superior_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_merlinx-user \
-    aosp_merlinx-userdebug \
-    aosp_merlinx-eng
+    superior_merlinx-user \
+    superior_merlinx-userdebug \
+    superior_merlinx-eng
