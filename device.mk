@@ -17,10 +17,10 @@
 DEVICE_PATH := device/xiaomi/merlinx
 
 # Inherit from mt6768-common
-$(call inherit-product, device/xiaomi/mt6768-common/mt6768-common.mk)
+#$(call inherit-product, device/xiaomi/mt6768-common/mt6768-common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/merlinx/merlinx-vendor.mk)
+#$(call inherit-product, vendor/xiaomi/merlinx/merlinx-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
