@@ -37,7 +37,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := aosp_merlinx
+PRODUCT_NAME := omni_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
