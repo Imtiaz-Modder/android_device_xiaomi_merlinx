@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/omni_merlinx.mk
+   $(LOCAL_DIR)/lineage_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_merlinx-user \
-    omni_merlinx-userdebug \
-    omni_merlinx-eng
+    lineage_merlinx-user \
+    lineage_merlinx-userdebug \
+    lineage_merlinx-eng
