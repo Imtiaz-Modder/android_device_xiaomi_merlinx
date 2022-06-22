@@ -15,6 +15,7 @@
 #
 
 # Boot animation
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
@@ -37,7 +38,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := omni_merlinx
+PRODUCT_NAME := aosp_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -49,5 +50,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.0
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:user/release-keys
-#CORVUS_MAINTAINER=Imtiaz Rahman
-TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true/false
+WITH_GAPPS := true
