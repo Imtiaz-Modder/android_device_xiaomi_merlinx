@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/ssos_merlinx.mk
+   $(LOCAL_DIR)/spiceos_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_merlinx-user \
-    ssos_merlinx-userdebug \
-    ssos_merlinx-eng
+    spiceos_merlinx-user \
+    spiceos_merlinx-userdebug \
+    spiceos_merlinx-eng
