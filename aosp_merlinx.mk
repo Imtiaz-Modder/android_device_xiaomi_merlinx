@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -38,7 +38,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := lineage_merlinx
+PRODUCT_NAME := aosp_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
