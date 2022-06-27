@@ -32,3 +32,4 @@ ODM_MANIFEST_SKUS += \
     merlinnfc
 
 ODM_MANIFEST_MERLINNFC_FILES := $(DEVICE_PATH)/manifest_merlinnfc.xml
+ALLOW_MISSING_DEPENDENCIES=true
