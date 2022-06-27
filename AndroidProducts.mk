@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/spiceos_merlinx.mk
+   $(LOCAL_DIR)/hentai_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    spiceos_merlinx-user \
-    spiceos_merlinx-userdebug \
-    spiceos_merlinx-eng
+    hentai_merlinx-user \
+    hentai_merlinx-userdebug \
+    hentai_merlinx-eng
