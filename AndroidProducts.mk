@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/hentai_merlinx.mk
+   $(LOCAL_DIR)/havoc_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    hentai_merlinx-user \
-    hentai_merlinx-userdebug \
-    hentai_merlinx-eng
+    havoc_merlinx-user \
+   havoc_merlinx-userdebug \
+    havoc_merlinx-eng
