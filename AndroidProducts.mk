@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/havoc_merlinx.mk
+   $(LOCAL_DIR)/superior_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_merlinx-user \
-   havoc_merlinx-userdebug \
-    havoc_merlinx-eng
+    superior_merlinx-user \
+   superior_merlinx-userdebug \
+    superior_merlinx-eng
