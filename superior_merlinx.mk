@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -37,7 +37,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := havoc_merlinx
+PRODUCT_NAME := superior_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
@@ -52,3 +52,5 @@ WITH_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true/false
 TARGET_SUPPORTS_QUICK_TAP := true
+# Gapps
+TARGET_GAPPS_ARCH := arm64
